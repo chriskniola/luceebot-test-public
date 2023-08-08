@@ -1,0 +1,191 @@
+.ui-icon{
+	display:inline-block;
+	vertical-align:middle;
+}
+.ui-togglepane-arrow{
+	float:right;
+}
+#perfcontainer{
+	width:inherit;
+	margin-top:20px;
+}
+#chartcontainer{
+	width:inherit;
+}
+#dateform{
+	position:relative;
+}
+.inputwrap{
+	display:inline-block;
+}
+/*buttons*/
+.button.secondary{
+	height:25px;
+	padding:5px 15px;
+}
+#apply-agp-changes{
+	margin-left:25%;
+}
+.button.green{
+	height:25px;
+	padding:5px 15px;
+}
+/*end buttons*/
+#main{
+	width:980px;
+	margin-left:10px;
+	text-align:center;
+}
+#dateform{
+	text-align:center;
+	width:inherit;
+}
+.frmHeader {
+    display: inline-block;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+.accordion-header-left{
+	position:absolute;
+	left:15px;
+}
+.accordion-header-right{
+	position:absolute;
+	right:75px;
+}
+.ui-accordion .ui-accordion-header{
+	height:36px;
+}
+h3>table{
+	border-collapse: collapse;
+    display: inline-block;
+    float: left;
+    margin-left: 35px;
+    width: 85%;
+}
+h3>table th{
+	/*border: 1px solid #d2d2d2;*/
+	padding:3px;
+	font-size:12px;
+	width:190px;
+	text-align:right;
+}
+h3>table tr th:first-child{
+	text-align:center;
+}
+
+table.orders-all-header{
+	width:100%;
+	font-size:13px;
+	text-align:right;
+	margin-left:0px;
+}
+table.orders-all-header th{
+	text-align:center;
+}
+
+.consultant-summary, .consultant-credits, .order-gp-detail{
+	border-collapse:collapse;
+	font-size:12;
+}
+td.currentConsultant{
+	color:green;
+}
+.consultant-summary th, .consultant-credits th, , .order-gp-detail th{
+	font-weight:normal;
+}
+.consultant-summary td, .consultant-credits td, .order-gp-detail td{
+	font-weight:normal;
+}
+.consultant-summary td, .consultant-summary th, .consultant-credits td, .consultant-credits th, .order-gp-detail td, .order-gp-detail th{
+	border:1px solid #DEDEDE;
+	padding: 5px;
+}
+#admin-panel .bottom-half .top{
+	position:relative;
+	margin-top:20px;
+	height:200px;
+	padding-top:45px;
+	text-align:left;
+}
+#admin-panel{
+	position:relative;
+}
+hr.major{
+	position:absolute;
+	left:-30px;
+	width:977px;
+}
+/*cols*/
+.col1, .col2, .col3{
+	display:inline-block;
+}
+.bottom-half > .top >span{
+	position:absolute;
+	top:10px;
+	left:350px;
+}
+div.top>.col1, div.top>.col2, div.top>.col3{
+	width:30%;
+	height:auto;
+	padding:5px;
+	text-align:left;
+	vertical-align:top;
+	margin-bottom:25px;
+}
+#admin-panel table{
+	border-collapse:collapse;
+}
+#admin-panel td, #admin-panel th{
+	border: 1px solid #dedede;
+}
+/*end cols*/
+
+/*fix modal stripe*/
+.ui-widget-overlay
+{
+    position: fixed;
+}
+
+.ui-widget-overlay
+{
+    background: #000;
+    opacity: .7;
+    -moz-opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+.axis-label-y1{
+	transform:rotate(-90deg);
+	-ms-transform:rotate(-90deg);
+	-webkit-transform:rotate(-90deg);
+	-moz-transform:rotate(-90deg);
+	display:inline-block;
+	position:relative;
+	bottom:100px;
+	left:45px;
+}
+
+/* performance pay reporting */
+
+.reporting .hourChart{ display:none; }
+.reporting .hourChart.active{ display:inline-block; }
+
+
+
+.reporting .consultants { margin-top: 20px; text-align: left; }
+.reporting .consultants ul { list-style: none; }
+.reporting .consultants ul li { display: inline-block; margin-right: 20px; }
+.reporting .tableh { text-align: left; display: none; font-weight: 700; }
+.reporting .left{float:left;}
+.reporting #graphs td, #graphs th { vertical-align: top; }
+.reporting #graphs tr:last-child td { padding-top: 15px; }
+.reporting #graphs td ul { list-style: none; }
+.reporting #graphs td ul li { padding: 5px; }
+.reporting #graphs td ul li span { padding: 1px 5px; }
+.reporting .ignore td { color: #cfcfcf; }
+
+.selectAllCheckBox { padding-inline-start: 40px; }
+.consultantList, .selectAllCheckBox { text-align: initial; }
+#update { width: 75px; margin-bottom: 10px; }
+
+
