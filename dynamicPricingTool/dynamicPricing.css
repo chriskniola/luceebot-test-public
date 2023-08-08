@@ -1,0 +1,243 @@
+@CHARSET "ISO-8859-1";
+
+html
+{
+	font-family:'Arial Bold', Arial;
+}
+/*Admin Panel*/
+
+#maintable{
+	outline: 2px solid #D2D2D2;
+    position: relative;
+    width: 920px;
+    padding:5px;
+    margin-bottom:20px;
+}
+#topRow{
+	height: 100px;
+    position: relative;
+    width: inherit;
+    padding:5px;
+}
+#floors{
+	float: left;
+    width: 15%;
+    border:1px solid #D2D2D2;
+    height:100%;
+    padding:3px;
+}
+#floortable{
+	width:100%;
+}
+#marginformula
+{
+	float: right;
+    height: inherit;
+    width: 83%;
+    border:1px solid #d2d2d2;
+    height:100%;
+    padding:3px;
+}
+#marginformulatable{
+	width:100%;
+}
+#middleRow
+{
+	height: 150px;
+    position: relative;
+    width: inherit;
+    padding:5px;
+    text-align:center;
+}
+#kittable
+{
+	display:inline-block;
+	border:1px solid #D2D2D2;
+	padding:3px;
+	position:relative;
+	bottom:52px;
+}
+#discountinfo
+{
+	display:inline-block;
+	border:1px solid #D2D2D2;
+	padding:3px;
+}
+#discountSearchCriteria
+{
+	text-align:center;
+}
+#rebate-row{
+	height:100px;
+}
+#rebateFirst{
+	display: inline-block;
+    vertical-align: top;
+}
+#rebateslistcell{
+	display:inline-block;
+	height:inherit;
+}
+#rebateslist{
+	overflow:auto; 
+	height:150px;
+}
+th.admin_panel_header
+{
+	color:rgb(51,51,51);
+	background:#E6E6E6;
+	height:31px;
+	font-size:15px;	
+}
+
+table#marginformulatable td
+{
+	text-align: center;
+	font-size:12px;
+}
+h1#drapHeader
+{
+	font-size:20px;
+	display:inline;
+	left:248px;
+	position:relative;
+}
+td#marginformula>table, td#floors>table
+{
+	outline-style:solid;
+	outline-width: 1px;
+	outline-color: #D2D2D2;
+	padding:5px;
+	margin:5px;
+	border:5px;
+	border-collapse:separate;
+}
+td#discountinfo>table
+{
+	outline-style:solid;
+	outline-width: 1px;
+	outline-color: #D2D2D2;
+	padding:5px;
+	margin:5px;
+	border:5px;
+	border-collapse:separate;
+}
+tr#adminmargins
+{
+	background: #5a5a5a; /* Old browsers */
+	background: -moz-linear-gradient(left,  #5a5a5a 0%, #d3d3d3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#5a5a5a), color-stop(100%,#d3d3d3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #5a5a5a 0%,#d3d3d3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #5a5a5a 0%,#d3d3d3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #5a5a5a 0%,#d3d3d3 100%); /* IE10+ */
+	background: linear-gradient(to right,  #5a5a5a 0%,#d3d3d3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5a5a5a', endColorstr='#d3d3d3',GradientType=1 ); /* IE6-9 */
+}
+th.admin_panel_table_row_header > span
+{
+	vertical-align:middle;
+	color: rgb(102, 102, 102);
+	display: inline;
+	font-family: 'Arial Bold', Arial;
+	font-size: 13px;
+	font-style:normal;
+	font-weight: bold;
+	height: auto;
+	text-align: left;
+	text-decoration: underline;
+}
+th.admin_panel_table_row_header
+{
+	text-align:left;
+	background:#FFFFFF;
+}
+
+table#anticipatedRebates
+{
+	border:1px #d2d2d2 solid;
+	padding:5px;
+}
+
+
+/*start both*/
+.ui-icon
+{
+	position:relative;
+	bottom:1px;
+	vertical-align:middle;
+	display:inline-block;
+}
+/*Start Listpage*/
+#categorieslist{
+	width:55%;
+}
+#rollupSettings{
+	margin-bottom: 10px;
+    text-align: center;
+    display:none;
+}
+td.settingcell
+{
+	vertical-align:top;
+	outline-style:solid;
+	outline-width: 1px;
+	outline-color: #D2D2D2;
+}
+table#settingsinput
+{
+	border-spacing:10px;
+	width:100%;
+}
+div.settingsbox
+{
+	padding:10px;
+	text-align:center;
+}
+span.settingchangeheader
+{
+	width:100%;
+	background-color:#D2D2D2;
+}
+td#updatecell
+{
+	text-align:center;
+}
+table#categorytable, table#categorytable td, table#categorytable th
+{
+	border: 1px solid #D2D2D2;
+	border-collapse:collapse;
+	padding:1px;
+}
+table#categorytable{
+	margin-left:10px;
+	padding:1px;
+}
+a#hidelink
+{
+	text-decoration:none;
+}
+th.headerSortDown
+{
+	/*TODO: style sorts*/
+	background-color:#d2d2d2;
+}
+th.headerSortUp
+{
+	background-color:#c4c4c4;
+}
+div.options
+{
+	width:50%;
+}
+.ui-tooltip
+{
+	font-size:12px;
+}
+.masterCategory .listLink
+{
+	font-weight:bold;
+}
+#datespecrow
+{
+	text-align:center;
+}

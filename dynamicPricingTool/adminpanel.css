@@ -1,0 +1,332 @@
+a
+{
+	text-decoration:none;
+	font-weight:bold;
+}
+.ui-icon
+{
+	display:inline-block;
+}
+.possibleerror
+{
+	color:#f7072d;
+}
+a.lowturns:link, a.lowturns:visited
+{
+	color:orange;
+	text-decoration:none;
+	font-weight:bold;
+}
+.slider
+{
+	display:inline;
+}
+.kitspan
+{
+	color:#FF8F45;
+	font-weight:bold;
+}
+.ui-tooltip th, .ui-tooltip td, .ui-tooltip-wide th, .ui-tooltip-wide td
+{
+	font-size:12px;
+	border: 1px solid #D2D2D2;
+}
+.ui-tooltip table, .ui-tooltip-wide table
+{
+	border-collapse:collapse;
+	border: 1px solid #D2D2D2;
+}
+table#productlisting
+{
+	font-size:12px;
+	border-collapse:collapse;
+	border: 1px solid #D2D2D2;
+	width:100%;
+}
+table#productlisting td, table#productlisting th
+{
+	border: 1px solid #D2D2D2;
+	padding: 0 5px;
+}
+#productlisting td
+{
+	height:45px;
+}
+tr#controls
+{
+	outline: 1px solid #d2d2d2;
+}
+tr#controls td
+{
+	border:none;
+}
+td.ch
+{
+	text-align: center;
+}
+tr.even td
+{	/*TODO: STYLE ZEBRA*/
+	background-color:#EEE;
+}
+tr.odd td
+{
+	background-color:#DDD;
+}
+th.headerSortDown
+{
+	/*TODO: style sorts*/
+	background-color:#d2d2d2;
+}
+th.headerSortUp
+{
+	background-color:#c4c4c4;
+}
+tr.successful td
+{
+	background-color:#CEF7CE;
+}
+tr.failure td
+{
+	background-color:red;
+}
+td.currency
+{
+	text-align:right;
+}
+a.notpref:link, a.noComp:link, a.notpref:visited, a.noComp:visited
+{
+	color:#F7072D;
+	text-decoration:none;
+	font-weight:bold;
+}
+td.illegalChange
+{
+	background-color:red !important;
+}
+.decimal
+{
+	text-align:right;
+}
+.newprices
+{
+	text-align:right;
+}
+#slider
+{
+	display: inline-block;
+    left: 30px;
+    margin-bottom: 5px;
+    top: 15px;
+    width: 455px;
+}
+#sliderbox
+{
+	background-color: #FFFFFF;
+    border: 1px solid;
+    left: 15px;
+    position: absolute;
+    top: 45px;
+    width: 560px;
+}
+#slidervaluebox
+{
+	display: inline;
+    left: 55px;
+    position: relative;
+    text-align: right;
+    top: 10px;
+    width: 50px;
+}
+#controlswrapper
+{
+	background-color: #D2D2D2;
+    border: 1px solid #D2D2D2;
+    height: 220px;
+    position: relative;
+}
+#controlswrapper h3
+{
+	text-align:center;
+}
+#rightControlShell
+{
+	background-color: #ADD8E6;
+    height: 200px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 600px;
+}
+#rightControls
+{
+	height: inherit;
+    position: relative;
+    border: 1px solid;
+}
+#topCompPriceChange
+{
+	background-color: #FFFFFF;
+    border: 1px solid;
+    bottom: 10px;
+    left: 15px;
+    min-height: 75px;
+    position: absolute;
+    text-align: center;
+    width: 560px;
+}
+.rightControlBox
+{
+    position: relative;
+    top: 5px;
+}
+#notslider
+{
+	background-color: #FFFFFF;
+    left: 10px;
+    outline: 1px solid;
+    padding: 10px;
+    position: absolute;
+    top: 10px;
+}
+#rowSelector
+{
+	bottom: 20px;
+    height: 100px;
+    left: 10px;
+    position: absolute;
+    bottom: 5px;	
+}
+#acceptancelist
+{
+	width:1000px;
+}
+#tablecontrols
+{
+	position:relative;
+	top: 15px;
+    left: 15px;
+}
+#updateOnSite
+{
+	outline:1px solid #d2d2d2;
+	position:relative;
+	width:685px;
+	height:150px;
+	background-color:#FFCC99;
+}
+#dropDownControl
+{
+	position:absolute;
+    left: 105px;
+    top: 0px;
+}
+#buttongroup
+{
+	position:absolute;
+	bottom:5px;
+	left:250px;
+}
+#buttongroup 
+#radiogroup
+{
+	position:absolute;
+	top:15px;
+	left:25px;
+}
+#advancedSettings
+{
+	position:absolute;
+	top:15px;
+	right:25px;
+}
+#slidervalue
+{
+	color:green;
+	font-weight:bold;
+}
+#sliderRadios
+{
+	text-align:center;
+}
+.resetAlertInfo
+{
+	font-size:10pt;
+}
+.rowLevelControls
+{
+	display:inline;
+	position:relative;
+	white-space:nowrap;
+}
+.marginCell, .priceCell
+{
+	white-space:nowrap;
+}
+.ui-tooltip, .ui-tooltip-wide
+{
+	font-size:10pt;
+	max-width:800px;
+	width:auto;
+}
+/*.ui-tooltip-wide
+{
+	min-width:500px;
+}*/
+.marginWrapper
+{
+	display:inline;
+	float:left;	
+}
+#topWrapper
+{
+	position:relative;
+	width:700px;
+	top:5px;
+}
+#backLinksDiv
+{
+	position: absolute;
+    top: -15px;
+    width: 300px;
+}
+a.turnsMissing:link, a.turnsMissing:visited
+{
+	font-weight:bold;
+	text-decoration:none;
+	color:black;
+}
+#legendbox
+{
+	position:relative;
+	left:856px;
+}
+.legendtip
+{
+	max-width:800px;
+}
+
+#legend a.netCosts:link, #legend a.recPrices:link, #legend a.netCosts:visited, #legend a.recPrices:visited
+{
+	color: #0071BB;
+}
+#legend td
+{
+	padding:5px;
+}
+.onSale:link, .onSale:visited
+{
+	color:green;
+	text-decoration:none;
+}
+#recordCount
+{
+	position: absolute;
+    right: 15px;
+    top: -20px;
+}
+a.iframe:link, a.iframe:visited
+{
+	color:#0071BB;
+	font-weight:normal;
+	text-decoration:underline;
+}
